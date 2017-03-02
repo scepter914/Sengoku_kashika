@@ -1,0 +1,20 @@
+digraph G{
+layout = neato;
+rokkaku [pos = "8.570933000000002,7.164485999999996!", shape = box, fixedsize = true, width = 1.1, height = 0.25] ; 
+matunaga [pos = "8.355600400000009,5.7399318!", shape = box, fixedsize = true, width = 1.1, height = 0.25] ; 
+hatakeyama [pos = "7.724985799999984,5.273013599999996!", shape = box, fixedsize = true, width = 1.1, height = 0.25] ; 
+yamana [pos = "6.771371599999991,8.181729000000004!", shape = box, fixedsize = true, width = 1.1, height = 0.25] ; 
+ukita [pos = "5.771616199999988,6.645079799999997!", shape = box, fixedsize = true, width = 1.1, height = 0.25] ; 
+amago [pos = "4.4488625999999725,7.851500999999998!", shape = box, fixedsize = true, width = 1.1, height = 0.25] ; 
+mouri [pos = "3.4567974000000103,6.5718936!", shape = box, fixedsize = true, width = 1.1, height = 0.25] ; 
+miyoshi [pos = "6.202279999999979,5.469785999999999!", shape = box, fixedsize = true, width = 1.1, height = 0.25] ; 
+kouno [pos = "4.295054399999986,5.256604799999998!", shape = box, fixedsize = true, width = 1.1, height = 0.25] ; 
+tyousokabe [pos = "5.0871673999999985,4.607045999999996!", shape = box, fixedsize = true, width = 1.1, height = 0.25] ; 
+itizyou [pos = "4.179697200000009,3.4492445999999974!", shape = box, fixedsize = true, width = 1.1, height = 0.25] ; 
+rokkaku -> miyoshi[label="-",fontcolor = red, color = red, dir = none, style = bold] ; 
+hatakeyama -> miyoshi[label="-",fontcolor = red, color = red, dir = none, style = bold] ; 
+yamana -> miyoshi[label="-",fontcolor = red, color = red, dir = none, style = bold] ; 
+kouno -> miyoshi[label="-",fontcolor = red, color = red, dir = none, style = bold] ; 
+miyoshi -> itizyou[label="-",fontcolor = red, color = red, dir = none, style = bold] ; 
+matunaga -> miyoshi[label="-",fontcolor = red, color = red, dir = none, style = bold] ; 
+}
