@@ -1,6 +1,6 @@
 ## 概要
-1562年地点での各武家毎の関係を経度緯度上にGraphvizで可視化
-赤が敵対、青が同盟or友好
+* 1562年地点での各武家毎の関係を経度緯度上にGraphvizで可視化
+* 赤が敵対、青が同盟or友好
 
 ## 環境
 * ruby
@@ -14,7 +14,7 @@
 
 ## 実行
 * ruby sengoku.rb
-main関数の中をいじると武家を変えることができる
+** main関数の中をいじると武家を変えることができる
 * dot to png 
-dot -Tpng sengoku.dot -o sengoku.png
+* dot -Tpng sengoku.dot -o sengoku.png
 
